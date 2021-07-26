@@ -1,0 +1,21 @@
+{
+    "name": "otiagosantos/signup-system",
+    "description": "A template application for authentication and authorization using JWT.",
+    "type": "project",
+    "require": {
+        "coffeecode/router": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oTiagoSantos",
+            "email": "tiagogs98@outlook.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "autoload": {
+        "psr-4": {
+            "Signup\\": "src/"
+        }
+    }
+}
